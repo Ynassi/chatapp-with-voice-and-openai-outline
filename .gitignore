@@ -1,0 +1,20 @@
+# Ignorer le fichier .env contenant les clés API
+.env
+
+# Ignorer les fichiers système spécifiques aux Mac
+.DS_Store
+
+# Ignorer les fichiers Python compilés
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorer les dossiers ou fichiers log
+*.log
+
+# Ignorer le dossier de virtualenv si tu en utilises un
+venv/
+
+# Ignorer les fichiers liés à Docker
+*.dockerignore
+

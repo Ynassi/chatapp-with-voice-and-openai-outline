@@ -40,7 +40,7 @@ const processUserMessage = async (userMessage) => {
   let response = await fetch(baseUrl + "/process-message", {
     method: "POST",
     headers: { Accept: "application/json", "Content-Type": "application/json" },
-    body: JSON.stringify({ userMessage: userMessage, voice: voiceOption }),
+    body: JSON.stringify({ message: userMessage, voice: voiceOption }),
   });
   response = await response.json();
   console.log(response);
